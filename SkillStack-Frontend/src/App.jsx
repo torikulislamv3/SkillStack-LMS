@@ -18,6 +18,7 @@ const App = () => {
           <Route path='/myEnrollments' element={<MyEnrollments />} />
           <Route path='/player/:courseId' element={<Player />} />
           <Route path='/loading/:path' element={<Loading />} />
+          {/* ------ */}
       </Routes>
     </div>
   )
