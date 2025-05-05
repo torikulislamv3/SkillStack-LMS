@@ -1,4 +1,4 @@
-import logo from './logo.svg'
+// import logo from './logo.svg'
 import logo_dark from './logo_dark.svg'
 import search_icon from './search_icon.svg'
 import cross_icon from './cross_icon.svg'
@@ -42,11 +42,11 @@ import profile_img from './profile_img.png'
 import profile_img2 from './profile_img2.png'
 import profile_img3 from './profile_img3.png'
 import lesson_icon from './lesson_icon.svg'
-import skillStackLogo from './lms-logo'
+import skillStackLogo from './skillStack.svg'
 
 
 export const assets = {
-    logo,
+    // logo,
     search_icon,
     sketch,
     microsoft_logo,
