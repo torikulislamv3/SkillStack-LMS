@@ -20,6 +20,9 @@ export const AppContextProvider = (props) => {
       return 0;
     }
     let totalRating = 0;
+    course.courseRatings.forEach(rating => {
+      totalRating += rating.rating
+    })
     return totalRating / course.courseRatings.length;
   };
 
