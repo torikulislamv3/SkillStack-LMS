@@ -10,7 +10,8 @@ const TestimonialsSection = () => {
         success, and how our <br /> platform has made a difference in their
         lives.
       </p>
-      {dummyTestimonial.map((testimonial, index) => (
+      <div className="grid grid-cols-auto gap-8 mt-14">
+        {dummyTestimonial.map((testimonial, index) => (
         <div
           className="text-sm text-left border border-gray-500/30 pb-6 rounded-lg bg-white shadow-[0px_4px_15px_0px] shadow-black/5 overflow-hidden"
           key={index}
@@ -49,6 +50,7 @@ const TestimonialsSection = () => {
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 };

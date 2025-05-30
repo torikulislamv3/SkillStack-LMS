@@ -16,12 +16,17 @@ const Navbar = () => {
         isCourseListPage ? "bg-white" : "bg-cyan-100/70"
       }`}
     >
-      <img
-        onClick={() => navigate("/")}
-        src={assets.skillStackLogo}
-        alt="logo"
-        className="w-10 lg:w-8 cursor-pointer"
-      />
+      <div className="flex items-center gap-2">
+        <img
+          onClick={() => navigate("/")}
+          src={assets.skillStackLogo}
+          alt="logo"
+          className="w-10 lg:w-8 cursor-pointer"
+        />
+        <p className="hidden md:block font-bold text-2xl text-blue-400 cursor-pointer">
+          Skill-Stack
+        </p>
+      </div>
       <div className="hidden md:flex items-center gap-5 text-gray-500">
         <div className="flex items-center gap-5">
           {user && (
