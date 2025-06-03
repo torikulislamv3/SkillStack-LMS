@@ -20,7 +20,7 @@ const Companies = () => {
         <img src={assets.paypal_logo} alt="paypal" className="w-20 md:w-28" />
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Companies;
